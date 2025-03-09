@@ -7,9 +7,9 @@
 
 
 
-```select 
+`select 
        type, 
        count(*) 
 from netflix 
-group by type;
+group by type;`
 
