@@ -7,7 +7,8 @@
 
 
 
-`select 
+```sql
+select 
        type, 
        count(*) 
 from netflix 
@@ -20,12 +21,10 @@ group by type;`
 # 2. Find the Most Common Rating for Movies and TV Shows
  
  
- 'select 
-type,
-rating
-
+'select 
+       type,
+       rating
 from
-
 (select 
 type, rating, count(rating) as rat,
 rank() over (partition by type order by count(rating) desc ) as Ranking
