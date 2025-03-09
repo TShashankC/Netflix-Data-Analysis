@@ -7,5 +7,9 @@
 
 
 
-
+```select 
+       type, 
+			 count(*) 
+from netflix 
+group by type;
 
