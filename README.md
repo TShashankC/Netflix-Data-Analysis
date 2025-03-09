@@ -9,7 +9,7 @@
 
 ```select 
        type, 
-			 count(*) 
+       count(*) 
 from netflix 
 group by type;
 
