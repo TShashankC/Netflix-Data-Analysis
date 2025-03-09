@@ -14,7 +14,10 @@ from netflix
 group by type;`
 
 
-#2. Find the Most Common Rating for Movies and TV Shows
+
+
+
+# 2. Find the Most Common Rating for Movies and TV Shows
  
  
  'select 
