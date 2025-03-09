@@ -1,7 +1,18 @@
 # Netflix-Data-Analysis
 
 
+# Overview
+This aim of this project is analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset.
 
+# Objective
+- Analyze the content
+- Ratings and Genre
+- Analyze conetnt based on year, duration, and countries
+- Categoze the content based on keywords in description
+
+# Dataset
+The data set is found on Kaggle
+- [https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download]()
 # 1. Count the Number of Movies vs TV Shows
 
 
@@ -100,6 +111,12 @@ where director isnull
 
 
 
+# Findigs & Conclusion
+
+- The dataset have diverse range of content with rating, genre, director and description of it. 
+- Movies dominated compared to TV shows.
+- Majority of the content is categorized good (96%) by using the key words in the description.
+- 4 out of 5 top countries with most content were english speaking counties, yet India spotted in the list.
 
 
 
