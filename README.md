@@ -15,6 +15,8 @@ group by type;`
 
 
 #2. 2. Find the Most Common Rating for Movies and TV Shows
+ 
+ 
  'select 
 type,
 rating
